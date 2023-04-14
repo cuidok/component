@@ -9,6 +9,10 @@ This is project is code format for general scenarios. Developer can use those co
 - [x] Apply an open source licenses.
 - [x] Thanks to JetBrains for this support.
 
+## GPT-Prompt
+
+- [ ] Explain something with example.
+
 # Acknowledgements
 
 Thanks to JetBrains for supporting me.
