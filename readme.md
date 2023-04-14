@@ -12,7 +12,7 @@ This is project is code format for general scenarios. Developer can use those co
 ## GPT-Prompt
 
 - [x] Explain something with example.
-- [ ] Generate a function code.
+- [x] Generate a function code.
 
 # Acknowledgements
 
