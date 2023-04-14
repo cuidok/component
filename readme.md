@@ -11,7 +11,7 @@ This is project is code format for general scenarios. Developer can use those co
 
 ## GPT-Prompt
 
-- [ ] Explain something with example.
+- [x] Explain something with example.
 
 # Acknowledgements
 
