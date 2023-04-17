@@ -15,6 +15,10 @@ This is project is code format for general scenarios. Developer can use those co
 - [x] Generate a function code.
 - [ ] Generate project architecture code.
 
+## SpringBoot
+
+- [ ] SpringBoot with Mybatis code template.
+
 # Acknowledgements
 
 Thanks to JetBrains for supporting me.
