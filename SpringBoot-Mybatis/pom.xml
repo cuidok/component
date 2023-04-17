@@ -19,8 +19,8 @@
 	<artifactId>SpringBoot-Mybatis</artifactId>
 	<version>1.0.0</version>
 
-	<name>SpringBoot-Docker</name>
-	<description>SpringBoot-Docker</description>
+	<name>SpringBoot-Mybatis</name>
+	<description>SpringBoot-Mybatis</description>
 
 	<properties>
 		<java.version>11</java.version>
