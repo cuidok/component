@@ -4,4 +4,20 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.github.cuidok.components.springboot.mybatis.mapper.InfoMapper">
 
+    <insert id="insert" parameterType="com.github.cuidok.components.springboot.mybatis.model.InfoPO">
+        insert into info (id, info, create_time) values (#{id}, #{info}, #{createTime});
+    </insert>
+
+    <delete id="deleteInfoById">
+        delete from info where id = #{id};
+    </delete>
+
+    <update id="updateInfoById" parameterType="com.github.cuidok.components.springboot.mybatis.model.InfoPO">
+        update info set info = #{info} where id = #{id};
+    </update>
+
+    <select id="selectInfoById" resultType="com.github.cuidok.components.springboot.mybatis.model.InfoPO">
+        select id, info, create_time as createTime from info where id = #{id};
+    </select>
+
 </mapper>
