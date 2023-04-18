@@ -17,7 +17,7 @@ This is project is code format for general scenarios. Developer can use those co
 
 ## SpringBoot
 
-- [ ] SpringBoot with Mybatis code template.
+- [x] SpringBoot with Mybatis code template.
 
 # Acknowledgements
 
