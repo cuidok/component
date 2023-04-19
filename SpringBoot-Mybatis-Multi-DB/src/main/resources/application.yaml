@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    mysql-a:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://127.0.0.1:13306/demo?characterEncoding=utf-8
+      username: root
+      password: mysql123456
+    mysql-b:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://127.0.0.1:13307/demo?characterEncoding=utf-8
+      username: root
+      password: mysql123456

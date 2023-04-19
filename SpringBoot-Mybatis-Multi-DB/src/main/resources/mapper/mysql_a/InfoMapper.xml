@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.vxnm.component.springboot.mybatis.multi.db.mapper.mysql.a.MysqlAInfoMapper">
+    
+    <insert id="insert" parameterType="cn.vxnm.component.springboot.mybatis.multi.db.model.InfoPO">
+        insert into info (id, info, create_time) values (#{id}, #{info}, #{createTime})
+    </insert>
+
+    <select id="selectAll" resultType="cn.vxnm.component.springboot.mybatis.multi.db.model.InfoPO">
+        select id, info, create_time as createTime from info;
+    </select>
+
+</mapper>

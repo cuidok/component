@@ -18,7 +18,7 @@ This is project is code format for general scenarios. Developer can use those co
 ## SpringBoot
 
 - [x] SpringBoot with Mybatis code template.
-- [ ] Database sharding with SpringBoot Mybatis and MySQL.
+- [x] Database sharding with SpringBoot Mybatis and MySQL.
 
 # Acknowledgements
 
