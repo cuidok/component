@@ -13,7 +13,6 @@ This is project is code format for general scenarios. Developer can use those co
 
 - [x] Explain something with example.
 - [x] Generate a function code.
-- [ ] Generate project architecture code.
 
 ## SpringBoot
 
