@@ -19,7 +19,7 @@ This is project is code format for general scenarios. Developer can use those co
 - [x] SpringBoot with Mybatis code template.
 - [x] Database sharding with SpringBoot Mybatis and MySQL.
 - [x] SpringBoot properties code template.
-- [ ] SpringBoot build by Docker.
+- [x] SpringBoot build by Docker.
 
 # Acknowledgements
 
