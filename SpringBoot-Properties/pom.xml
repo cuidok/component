@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.github.cuidok.componentst</groupId>
+    <groupId>com.github.cuidok.component</groupId>
     <artifactId>SpringBoot-Properties</artifactId>
     <version>1.0.0</version>
 
