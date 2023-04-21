@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.github.cuidok.components</groupId>
+    <groupId>com.github.cuidok.component</groupId>
     <artifactId>SpringBoot-Mybatis-Multi-DB</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
