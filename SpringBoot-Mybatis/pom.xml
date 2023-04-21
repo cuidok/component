@@ -15,7 +15,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
-	<groupId>com.github.cuidok.components</groupId>
+	<groupId>com.github.cuidok.component</groupId>
 	<artifactId>SpringBoot-Mybatis</artifactId>
 	<version>1.0.0</version>
 
