@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11
+FROM openjdk:17
 RUN  mkdir /app
 WORKDIR /app
 COPY ./target/SpringBoot-Docker-Composer-1.0.jar /app
