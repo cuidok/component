@@ -1,0 +1,18 @@
+version: '3'
+services:
+  app:
+    image: demo:1.0
+    ports:
+      - 8080:8080
+    environment:
+      - RUN_ENV=prod
+    depends_on:
+      - db
+  db:
+    image: mysql:8
+    environment:
+      - MYSQL_ROOT_PASSWORD=Mysql@123456
+    ports:
+      - 3306:3306
+    volumes:
+      - ./mysql:/var/lib/mysql
