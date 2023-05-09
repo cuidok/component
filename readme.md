@@ -15,6 +15,10 @@ This is project is code format for general scenarios. Developer can use those co
 - [x] Generate a function code.
 - [x] Generate test code.
 
+## Docker deploy
+
+- [x] MySQL deploy script.
+
 ## Docker composer deploy
 
 - [x] Redis cluster deploy script.
