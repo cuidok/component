@@ -1,4 +1,6 @@
-# Param
+# Container name
+NAME=mysql_8
+# Server port
 SERVER_PORT=3306
 MYSQL_X_SERVER_PORT=33060
 # Password of root
@@ -10,8 +12,6 @@ DATA_PATH=/var/lib/mysql
 # unless-stopped - Always restart unless container is explicitly stopped or Docker itself is stopped or restarted.
 # always - Always restart
 RESTART=always
-# Container name
-NAME=mysql_8
 
 # Command
 docker run -d --name $NAME \
