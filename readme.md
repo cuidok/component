@@ -18,6 +18,7 @@ This is project is code format for general scenarios. Developer can use those co
 ## Docker deploy
 
 - [x] MySQL 8.0 deploy script.
+- [ ] Nginx 1.23 deploy script.
 
 ## Docker composer deploy
 
