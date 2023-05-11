@@ -17,7 +17,7 @@ This is project is code format for general scenarios. Developer can use those co
 
 ## Docker deploy
 
-- [x] MySQL deploy script.
+- [x] MySQL 8.0 deploy script.
 
 ## Docker composer deploy
 
