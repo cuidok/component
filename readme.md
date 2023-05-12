@@ -22,8 +22,8 @@ This is project is code format for general scenarios. Developer can use those co
 
 ## Docker composer deploy
 
-- [x] Redis cluster deploy script.
-- [x] MySQL deploy script.
+- [x] Redis cluster 7.0 deploy script.
+- [x] MySQL 8.0 deploy script.
 
 ## SpringBoot
 
