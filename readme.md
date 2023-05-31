@@ -2,7 +2,7 @@
 
 This is project is code format for general scenarios. Developer can use those code to resolve some problems quickly.
 
-# todo
+# Todo
 
 ## Project
 
