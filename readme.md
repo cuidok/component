@@ -14,6 +14,7 @@ This is project is code format for general scenarios. Developer can use those co
 - [x] Explain something with example.
 - [x] Generate a function code.
 - [x] Generate test code.
+- [x] AI documentation assistant.
 
 ## Docker deploy
 
