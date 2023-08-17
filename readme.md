@@ -39,6 +39,12 @@ This is project is code format for general scenarios. Developer can use those co
 - [x] SpringBoot build by Docker.
 - [x] SpringBoot build by Docker composer.
 
+## VUE
+
+- [ ] VUE build by Docker.
+- [ ] VUE build by Docker composer.
+- [ ] VUE multi-environment configuration.
+
 # Acknowledgements
 
 Thanks to JetBrains for supporting me.
