@@ -43,7 +43,7 @@ This is project is code format for general scenarios. Developer can use those co
 ## VUE
 
 - [x] VUE build by Docker.
-- [ ] VUE build by Docker compose.
+- [x] VUE build by Docker compose.
 - [ ] VUE multi-environment configuration.
 - [ ] VUE is used with axios lib.
 
