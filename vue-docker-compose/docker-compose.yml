@@ -1,0 +1,8 @@
+version: '3'
+services:
+  app:
+    image: demo:1.0
+    ports:
+      - 80:80
+    environment:
+      - RUN_ENV=prod
