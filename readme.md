@@ -38,7 +38,7 @@ This is project is code format for general scenarios. Developer can use those co
 - [x] SpringBoot properties code template.
 - [x] SpringBoot build by Docker.
 - [x] SpringBoot build by Docker compose.
-- [ ] SpringBoot Multi-Environment with maven.
+- [x] SpringBoot Multi-Environment with maven.
 
 ## VUE
 
