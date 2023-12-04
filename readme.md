@@ -39,6 +39,7 @@ This is project is code format for general scenarios. Developer can use those co
 - [x] SpringBoot build by Docker.
 - [x] SpringBoot build by Docker compose.
 - [x] SpringBoot Multi-Environment with maven.
+- [ ] SpringBoot uses Minio for file storage.
 
 ## VUE
 
