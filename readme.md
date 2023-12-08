@@ -49,6 +49,12 @@ This is project is code format for general scenarios. Developer can use those co
 - [x] Vue Multi-Environment with Vue CLI.
 - [ ] Vue is used with axios lib.
 
+## UI Design
+
+**Light theme**
+
+**Dark theme**
+
 # Acknowledgements
 
 Thanks to JetBrains for supporting me.
