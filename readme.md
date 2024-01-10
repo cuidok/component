@@ -53,7 +53,7 @@ These codes, validated through countless projects, are presently operational in 
 - [x] Vue build by Docker compose.
 - [x] Vue Multi-Environment with vite.
 - [x] Vue Multi-Environment with Vue CLI.
-- [ ] Vue is used with axios lib.
+- [x] Vue is used with axios and axios mock lib with vite.
 
 ## UI Design
 
