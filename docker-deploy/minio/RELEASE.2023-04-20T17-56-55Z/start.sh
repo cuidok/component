@@ -1,7 +1,14 @@
+API_PORT="9000"
+CONSOLE_PORT="9090"
+DATA_PATH="/minio/data"
+MINIO_USER="minio"
+MINIO_PASSWORD="Minio123456"
+MINIO_VERSION="RELEASE.2023-04-20T17-56-55Z"
+
 docker run \
-   -p 9000:9000 \
-   -p 9090:9090 \
-   -v /minio/data:/data \
-   -e "MINIO_ROOT_USER=minio" \
-   -e "MINIO_ROOT_PASSWORD=Minio123456" \
-   minio/minio:RELEASE.2023-04-20T17-56-55Z server /data --console-address ":9090"
+   -p $API_PORT:9000 \
+   -p $CONSOLE_PORT:9090 \
+   -v $DATA_PATH:/data \
+   -e "MINIO_ROOT_USER=$MINIO_USER" \
+   -e "MINIO_ROOT_PASSWORD=$MINIO_PASSWORD" \
+   minio/minio:$MINIO_VERSION server /data --console-address ":$CONSOLE_PORT"
