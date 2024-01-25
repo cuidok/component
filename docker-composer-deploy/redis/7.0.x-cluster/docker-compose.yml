@@ -4,8 +4,8 @@ services:
     container_name: redis-c-7000
     image: redis:7.0.11
     ports:
-      - 7000:7000
-      - 17000:17000
+      - "7000:7000"
+      - "17000:17000"
     volumes:
       - ./7000/conf:/usr/local/etc/redis
     command:
@@ -14,8 +14,8 @@ services:
     container_name: redis-c-7001
     image: redis:7.0.11
     ports:
-      - 7001:7001
-      - 17001:17001
+      - "7001:7001"
+      - "17001:17001"
     volumes:
       - ./7001/conf:/usr/local/etc/redis
     command:
@@ -24,8 +24,8 @@ services:
     container_name: redis-c-7002
     image: redis:7.0.11
     ports:
-      - 7002:7002
-      - 17002:17002
+      - "7002:7002"
+      - "17002:17002"
     volumes:
       - ./7002/conf:/usr/local/etc/redis
     command:
@@ -34,8 +34,8 @@ services:
     container_name: redis-c-7003
     image: redis:7.0.11
     ports:
-      - 7003:7003
-      - 17003:17003
+      - "7003:7003"
+      - "17003:17003"
     volumes:
       - ./7003/conf:/usr/local/etc/redis
     command:
@@ -44,8 +44,8 @@ services:
     container_name: redis-c-7004
     image: redis:7.0.11
     ports:
-      - 7004:7004
-      - 17004:17004
+      - "7004:7004"
+      - "17004:17004"
     volumes:
       - ./7004/conf:/usr/local/etc/redis
     command:
@@ -54,8 +54,8 @@ services:
     container_name: redis-c-7005
     image: redis:7.0.11
     ports:
-      - 7005:7005
-      - 17005:17005
+      - "7005:7005"
+      - "17005:17005"
     volumes:
       - ./7005/conf:/usr/local/etc/redis
     command:
