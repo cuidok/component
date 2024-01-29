@@ -1,3 +1,10 @@
+# This script is used to set the parameters and run a MinIO server
+# API_PORT is the API port of the MinIO server
+# CONSOLE_PORT is the console port of the MinIO server
+# DATA_PATH is the data storage path of the MinIO server
+# MINIO_USER is the username of the MinIO server
+# MINIO_PASSWORD is the password of the MinIO server
+# MINIO_VERSION is the version of the MinIO server image
 API_PORT="9000"
 CONSOLE_PORT="9090"
 DATA_PATH="/minio/data"
