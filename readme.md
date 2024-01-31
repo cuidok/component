@@ -55,12 +55,6 @@ These codes, validated through countless projects, are presently operational in 
 - [x] Vue Multi-Environment with Vue CLI.
 - [x] Vue is used with axios and axios mock lib with vite.
 
-## UI Design
-
-**Light theme**
-
-**Dark theme**
-
 # Acknowledgements
 
 Thanks to JetBrains for supporting me.
