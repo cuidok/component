@@ -15,14 +15,6 @@ These codes, validated through countless projects, are presently operational in 
 - [x] Apply an open source licenses.
 - [x] Thanks to JetBrains for this support.
 
-## GPT-Prompt
-
-- [x] Explain something with example.
-- [x] Generate a function code.
-- [x] Generate test code.
-- [x] AI documentation assistant.
-- [x] Refactor code.
-
 ## Docker deploy
 
 - [x] MySQL 8.0 deploy script.
