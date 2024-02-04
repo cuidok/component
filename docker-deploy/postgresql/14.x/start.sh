@@ -22,4 +22,4 @@ docker run -d --name $NAME \
   -e POSTGRES_PASSWORD=$PASSWORD \
   -v $DATA_PATH/:/var/lib/postgresql/data \
   --restart $RESTART \
-  postgres:14.2
+  postgres:14.10
