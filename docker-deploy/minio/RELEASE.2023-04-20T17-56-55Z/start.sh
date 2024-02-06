@@ -1,18 +1,23 @@
-# This script is used to set the parameters and run a MinIO server
-# CONTAINER_NAME is the name of the MinIO server container
-# API_PORT is the API port of the MinIO server
-# CONSOLE_PORT is the console port of the MinIO server
-# DATA_PATH is the data storage path of the MinIO server
-# MINIO_USER is the username of the MinIO server
-# MINIO_PASSWORD is the password of the MinIO server
-# MINIO_VERSION is the version of the MinIO server image
-CONTAINER_NAME="minio"
-API_PORT="9000"
-CONSOLE_PORT="9090"
-DATA_PATH="/minio/data"
-MINIO_USER="minio"
-MINIO_PASSWORD="Minio123456"
-MINIO_VERSION="RELEASE.2023-04-20T17-56-55Z"
+# Container name, used to identify and manage the Docker container
+CONTAINER_NAME=minio
+
+# API port, the MinIO service will listen for API connections on this port
+API_PORT=9000
+
+# Console port, the MinIO service will listen for console connections on this port
+CONSOLE_PORT=9090
+
+# Data path, the MinIO service will store its data files under this path
+DATA_PATH=/minio/data
+
+# Username for the root user, used for authentication with the MinIO service
+MINIO_USER=minio
+
+# Password for the root user, used for authentication with the MinIO service
+MINIO_PASSWORD=Minio@123456
+
+# Version of the MinIO service Docker image
+MINIO_VERSION=RELEASE.2023-04-20T17-56-55Z
 
 docker run -d --name "$CONTAINER_NAME" \
    -p "$API_PORT:9000" \
