@@ -1,5 +1,5 @@
 # Container name, used to identify and manage the Docker container
-NAME=postgres_14.2
+CONTAINER_NAME=postgres_14.2
 
 # Main port, the PostgreSQL service will listen for connections on this port
 MAIN_PORT=5432
@@ -17,9 +17,9 @@ DATA_PATH=/data/postgres-14.2/data
 # "unless-stopped" - Docker will always try to restart the container when it exits, regardless of the exit status, unless the user explicitly stops the container, or Docker itself is stopped or restarted.
 RESTART=always
 
-docker run -d --name $NAME \
-  -p $MAIN_PORT:5432 \
-  -e POSTGRES_PASSWORD=$PASSWORD \
-  -v $DATA_PATH/:/var/lib/postgresql/data \
-  --restart $RESTART \
+docker run -d --name "$CONTAINER_NAME" \
+  -p "$MAIN_PORT:5432" \
+  -e "POSTGRES_PASSWORD=$PASSWORD" \
+  -v "$DATA_PATH/:/var/lib/postgresql/data" \
+  --restart "$RESTART" \
   postgres:14.10
