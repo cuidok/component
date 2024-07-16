@@ -22,6 +22,7 @@ These codes, validated through countless projects, are presently operational in 
 - [x] Redis cluster 7.0 deploy script.
 - [x] Minio RELEASE.2023-04-20T17-56-55Z deploy script.
 - [x] PostgreSQL 14.x deploy script.
+- [x] Static resource server that was built by nginx 1.26.1.
 
 ## Docker compose deploy
 
