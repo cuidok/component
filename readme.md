@@ -24,6 +24,7 @@ These codes, validated through countless projects, are presently operational in 
 - [x] PostgreSQL 14.x deploy script.
 - [x] Static resource server that was built by nginx 1.26.1.
 - [ ] MongoDB 5.x deploy script.
+- [ ] Redis stack 7.2.x deploy script.
 
 ## Docker compose deploy
 
@@ -34,6 +35,7 @@ These codes, validated through countless projects, are presently operational in 
 - [x] PostgreSQL 14.x deploy script.
 - [x] Apollo 2.1 deploy script.
 - [ ] MongoDB 5.x deploy script.
+- [ ] Redis stack 7.2.x deploy script.
 
 ## SpringBoot
 
