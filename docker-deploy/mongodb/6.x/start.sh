@@ -31,5 +31,5 @@ docker run -d --name "$CONTAINER_NAME" \
   --restart="$RESTART" \
   mongodb/mongodb-community-server:6.0-ubi8
 
-# Simple command like following:
+# Single-line command like following:
 # docker run --name mongodb -d -p 27017:27017 -e MONGODB_INITDB_ROOT_USERNAME=admin -e MONGODB_INITDB_ROOT_PASSWORD=Mongo654321 -v /data/mongodb/db:/data/db --restart=always mongodb/mongodb-community-server:6.0-ubi8
