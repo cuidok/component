@@ -28,3 +28,6 @@ docker run -d --name "$CONTAINER_NAME" \
   -v "$DATA_PATH:/var/lib/mysql" \
   --restart="$RESTART" \
   mysql:8.0.33
+
+# Single-line command like following:
+# docker run -d --name mysql_8 -p 3306:3306 -p 33060:33060 -e MYSQL_ROOT_PASSWORD=Mysql@123456 -v /var/lib/mysql:/var/lib/mysql --restart=always mysql:8.0.33
