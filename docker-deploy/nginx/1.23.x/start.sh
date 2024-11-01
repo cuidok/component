@@ -20,3 +20,6 @@ docker run -d --name "$CONTAINER_NAME" \
   -v "$DATA_PATH:/etc/nginx/conf.d" \
   --restart="$RESTART" \
   nginx:1.23.3
+
+# Single-line command like following:
+# docker run -d --name nginx -p 80:80 -v /path/to/nginx/conf.d:/etc/nginx/conf.d --restart=always nginx:1.23.3
