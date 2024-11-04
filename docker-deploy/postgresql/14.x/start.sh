@@ -1,5 +1,5 @@
 # Container name, used to identify and manage the Docker container
-CONTAINER_NAME=postgres_14.2
+CONTAINER_NAME=postgres14
 
 # Main port, the PostgreSQL service will listen for connections on this port
 MAIN_PORT=5432
@@ -23,3 +23,6 @@ docker run -d --name "$CONTAINER_NAME" \
   -v "$DATA_PATH/:/var/lib/postgresql/data" \
   --restart "$RESTART" \
   postgres:14.10
+
+# Single-line command like following:
+# docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=Pg@123456 -v /data/postgres-14.2/data:/var/lib/postgresql/data --restart always postgres:14.10
