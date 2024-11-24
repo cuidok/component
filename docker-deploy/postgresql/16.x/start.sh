@@ -1,5 +1,5 @@
 # Container name, used to identify and manage the Docker container
-CONTAINER_NAME=postgres_14.2
+CONTAINER_NAME=postgres16
 
 # Main port, the PostgreSQL service will listen for connections on this port
 MAIN_PORT=5432
@@ -23,3 +23,6 @@ docker run -d --name "$CONTAINER_NAME" \
   -v "$DATA_PATH/:/bitnami/postgresql" \
   --restart "$RESTART" \
   bitnami/postgresql:16.4.0
+
+# Single-line command like following:
+# docker run -d --name postgres16 -p 5432:5432 -e POSTGRESQL_PASSWORD=Pg123456 -v /data/postgresql/data:/bitnami/postgresql --restart always bitnami/postgresql:16.4.0
