@@ -24,3 +24,6 @@ docker run -d --name "$CONTAINER_NAME" \
   -v "$DATA_PATH:/usr/share/nginx/html" \
   --restart="$RESTART" \
   nginx:1.26.1
+
+# Single-line command like following:
+# docker run -d --name nginx -p 80:80 -v ${HERE_ARE_NGINX_CONFIGURATION_FILES}:/etc/nginx/conf.d -v ${HERE_ARE_STATIC_RESOURCES}:/usr/share/nginx/html --restart=always nginx:1.26.1
