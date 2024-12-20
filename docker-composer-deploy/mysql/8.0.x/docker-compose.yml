@@ -4,6 +4,7 @@ services:
     image: mysql:8.0.33
     environment:
       - MYSQL_ROOT_PASSWORD=Mysql@123456
+      - TZ=Asia/Shanghai
     ports:
       - "3306:3306"
       - "33060:33060"
