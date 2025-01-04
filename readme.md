@@ -8,6 +8,8 @@ Perusing the project directory, you'll discern that it currently offers Docker a
 
 These codes, validated through countless projects, are presently operational in numerous ventures you might recognize. I have derived them through a process of sanitization and restructuring, yet I cannot vouch for their absolute flawlessness. Should there be any issues, I kindly implore you to apprise me.
 
+We recommend you to use docker compose technology to deploy and manage those services. 
+
 # Todo
 
 ## Project
@@ -35,8 +37,8 @@ These codes, validated through countless projects, are presently operational in 
 - [x] Minio RELEASE.2023-04-20T17-56-55Z deploy script.
 - [x] PostgreSQL 14.x deploy script.
 - [x] Apollo 2.1 deploy script.
-- [ ] MongoDB 6.x deploy script.
-- [ ] Redis stack 7.2.x deploy script.
+- [x] MongoDB 6.x deploy script.
+- [x] Redis stack 7.2.x deploy script.
 
 ## SpringBoot
 
