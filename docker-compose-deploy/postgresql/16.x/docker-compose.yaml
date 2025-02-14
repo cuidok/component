@@ -1,0 +1,12 @@
+version: '3'
+services:
+  postgres_16:
+    container_name: postgres_16
+    image: bitnami/postgresql:16.4.0
+    environment:
+      - POSTGRESQL_PASSWORD=Pg123456
+    ports:
+      - "5432:5432"
+    volumes:
+      - /data/postgresql/data:/bitnami/postgresql
+    restart: always
