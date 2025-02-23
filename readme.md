@@ -27,7 +27,7 @@ We recommend you to use docker compose technology to deploy and manage those ser
 - [x] PostgreSQL 16.x deploy script.
 - [x] Static resource server that was built by nginx 1.26.1.
 - [x] MongoDB 6.x deploy script.
-- [ ] Redis stack 7.2.x deploy script.
+- [x] Redis stack 7.2.x deploy script.
 
 ## Docker compose deploy
 
